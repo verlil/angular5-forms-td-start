@@ -1,3 +1,7 @@
 .container {
   margin-top: 30px;
 }
+
+input.ng-invalid.ng-touched, select.ng-invalid.ng-touched{
+  box-shadow: 0 0 2px #ee0200;
+}
